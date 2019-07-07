@@ -1,4 +1,4 @@
-# Baking App
+# Calculator App
 ### Project Overview
 Creating a basic calculator app
 
