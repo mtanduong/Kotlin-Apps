@@ -105,9 +105,10 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/buttonDivide" android:text="÷" app:layout_constraintStart_toEndOf="@+id/button9"
-            android:layout_marginStart="8dp" app:layout_constraintBaseline_toBaselineOf="@+id/button9"
-            android:minWidth="48dp"/>
+            android:id="@+id/buttonDivide" android:text="÷"
+            android:minWidth="48dp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/button9" app:layout_constraintStart_toEndOf="@+id/button9"
+            android:layout_marginStart="8dp"/>
     <Button
             android:text="-"
             android:layout_width="wrap_content"
@@ -116,7 +117,7 @@
             android:layout_marginStart="8dp" app:layout_constraintBaseline_toBaselineOf="@+id/button3"
             android:minWidth="48dp"/>
     <Button
-            android:text="x"
+            android:text="*"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonMultiply" app:layout_constraintStart_toEndOf="@+id/button6"
