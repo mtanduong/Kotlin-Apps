@@ -137,7 +137,7 @@
             app:layout_constraintBaseline_toBaselineOf="@+id/button3" app:layout_constraintStart_toEndOf="@+id/button3"
             android:layout_marginStart="8dp"/>
     <Button
-            android:text="x"
+            android:text="*"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonMultiply"
